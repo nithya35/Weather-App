@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /* background:rgb(225, 218, 216); */
+     /* background:rgba(220, 201, 201, 0.695);  */
+     background: rgb(4, 54, 65);
+}
+.container{
+    max-width: 400px;
+    background: linear-gradient(135deg,rgb(117, 117, 214),rgb(84, 215, 199));
+    color:white;
+    margin: 60px auto 0px;
+    border-radius: 25px;
+    padding:40px;
+    text-align: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: none;
+    outline:none;
+    border-radius: 25px;
+    background: white;
+    color: black;
+    flex:1;
+    margin:10px;
+    padding:25px;
+    width:40px;
+    height:40px;
+    font-size: 25px;
+}
+.search button{
+    border: none;
+    outline:none;
+    border-radius: 50%;
+    width:45px;
+    height:45px;
+    cursor: pointer;
+}
+.search button img{
+    width:20px;
+    height:20px;
+}
+.tempmain img{
+    margin-top: -10px;
+    width:160px;
+    height:160px;
+}
+.condition{
+    font-size: 30px;
+    margin-top: -40px;
+}
+.tempmain h1{
+    font-size: 75px;
+}
+.tempmain h2{
+    font-size: 40px;
+    margin-top: 5px;
+}
+.colitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:50px;
+    margin:15px;
+}
+.weather{
+    display:none;
+}
+.error{
+    font-size: 14px;
+    padding:20px;
+    font-size: 20px;
+    text-align: left;
+    display:none;
+}
